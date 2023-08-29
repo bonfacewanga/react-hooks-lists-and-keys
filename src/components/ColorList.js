@@ -9,6 +9,8 @@ function ColorList() {
     "hotpink",
   ];
 
+
+  
   const colorElements = colors.map((color) => {
     return <li style={{ color: color }}>{color}</li>;
   });
@@ -24,3 +26,6 @@ function ColorList() {
 }
 
 export default ColorList;
+
+
+
